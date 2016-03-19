@@ -1,0 +1,5 @@
+<h3> Create a new Pokemon! </h3>
+<%= simple_form_for Pokemon.new do |f| %>
+  <%= f.input :name, label: "The unique name of your pokemon." %>
+  <%= f.button :submit , label: "Create!" %>
+<% end %>
